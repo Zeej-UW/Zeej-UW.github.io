@@ -515,6 +515,7 @@ Animation.prototype.isDone = function () {
     return (this.elapsedTime >= this.totalTime);
 }
 
+
 AM.queueDownload("./img/megaman/pellet.png");
 AM.queueDownload("./img/NPC_21.png");
 
